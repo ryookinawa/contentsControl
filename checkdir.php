@@ -6,7 +6,7 @@ $rep = 1;
 $sze = 1;
 
 $dir=$_POST['name'];
-print("参照先dayo:  $dir  <br/><hr>");
+print("参照先:  $dir  <br/><hr>");
 
 // 再帰的にディレクトリをチェックする
 $drc = dir($dir);
